@@ -20,7 +20,7 @@ A arquitetura segue o padrão MVC, com separação em camadas:
 
 Diagrama arquitetural:
 
-![Diagrama Arquitetural](image.png)
+(![Captura de tela de 2025-07-07 23-42-18](https://github.com/user-attachments/assets/7288bc64-5921-4fdd-b318-a7f2652d8a2f)
 
 ## Tecnologias Utilizadas
 - ASP.NET Core MVC (.NET 6+)
@@ -72,15 +72,19 @@ Desenvolvido em Microsoft ASP.NET MVC com Banco de Dados SQL-SERVER (ou MySQL).
 ## Telas do Sistema
 
 ### Plano de Contas
-![Plano de Contas](image.png)
+(![Captura de tela de 2025-07-07 23-46-11](https://github.com/user-attachments/assets/120c33e5-f329-4848-94f0-401ec16490e5)
+
 ### Cadastro de Plano de Contas
-![Cadastro Plano de Contas](image.png)
+
+(![Captura de tela de 2025-07-07 23-46-31](https://github.com/user-attachments/assets/641e60ad-728d-4150-a2ab-bb12da98c72c))
 
 ### Transações Financeiras
-![Transações Financeiras](image.png)
+
+(![Captura de tela de 2025-07-07 23-46-47](https://github.com/user-attachments/assets/5a57fd7d-3255-4ac0-a7c2-fdec82f4c2c9))
 
 ### Cadastro de Transação
-![Cadastro Transação](image.png)
+
+(![Captura de tela de 2025-07-07 23-47-07](https://github.com/user-attachments/assets/c3cfeeb0-c60a-4700-8761-5c05daa43e3f))
 
 ## Como rodar o projeto com MySQL Server **ou** SQL Server local
 
