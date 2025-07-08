@@ -31,7 +31,6 @@ public class PlanoContaController : Controller
         [Route("Cadastro/{id}")]
         public ActionResult Cadastro(PlanoContaModel? model, int? id)
         {
-            Console.WriteLine($"id: {id}");
             if (id != null && !ModelState.IsValid)
             {
                 // Carregar o registro em tela para edição

@@ -1,0 +1,37 @@
+@using myfinance_web_dotnet_08.Domain
+
+<h1><em>Listagem de Transações Financeiras</em></h1>
+<br />
+<a type="button" class="btn btn-primary" asp-controller="Transacao" asp-action="Cadastro">Registrar uma Transação</a>
+<br /><br />
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Histórico</th>
+        <th>Tipo</th>
+        <th>Valor</th>
+        <th>Data</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var item in (List<Transacao>)ViewBag.Lista)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Historico</td>
+            <td>@item.PlanoConta?.Tipo</td>
+            <td>@item.Valor</td>
+            <td>@item.Data</td>
+            <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+            <td><button type="button" class="btn btn-danger" onclick="Excluir(@item.Id)">Excluir</button></td>
+        </tr>
+    }
+</table>
+<script>
+    function Editar(id) {
+        window.location.href = "../Transacao/Cadastro/" + id;
+    }
+    function Excluir(id) {
+        window.location.href = "../Transacao/Excluir/" + id;
+    }
+</script> 
