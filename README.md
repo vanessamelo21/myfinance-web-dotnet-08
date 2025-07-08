@@ -105,7 +105,7 @@ Desenvolvido em Microsoft ASP.NET MVC com Banco de Dados SQL-SERVER (ou MySQL).
 
 3. **Execute o projeto**
    ```sh
-   dotnet run --project src/myfinance-web-dotnet-08/myfinance-web-dotnet-08.csproj
+   dotnet run 
    ```
 
 4. **Acesse no navegador**
